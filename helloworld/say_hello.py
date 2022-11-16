@@ -5,7 +5,8 @@ import helloworld
 
 def main(i):
     hw = helloworld.Helloworld(i)
-    print(hw)
+    print(f'oh noes! {hw}')
+
 
 if __name__ == '__main__':
     main(sys.argv[1])
