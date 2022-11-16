@@ -5,4 +5,4 @@ def readwrite(original, modified):
                 outfile.write(line.upper())
 
 def what_is(thing):
-    print(f'What is {thing}')
+    print(f'What is this {thing} really?')
