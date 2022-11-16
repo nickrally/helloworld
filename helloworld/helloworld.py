@@ -16,6 +16,7 @@ class Helloworld:
             Helloworld.count += 1
             Helloworld.ids_list.append(i)
         else:
+            print(f'{i} is taken, assigning timestamp...')
             self.id = int(time.time())
 
     def __repr__(self):
