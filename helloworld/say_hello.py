@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
+import sys
 import helloworld
 
-hw = helloworld.Helloworld(1)
-print(hw)
+def main(i):
+    hw = helloworld.Helloworld(i)
+    print(hw)
 
+if __name__ == '__main__':
+    main(sys.argv[1])
